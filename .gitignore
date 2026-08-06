@@ -38,6 +38,17 @@ yarn-error.*
 
 app-example
 
+# Ignore Explore tab file
+app/(tabs)/explore.tsx
+
 # generated native folders
 /ios
 /android
+# IDE & Tooling extra files
+.claude/
+.vscode/
+AGENTS.md
+CLAUDE.md
+
+# Unwanted app screens
+app/(tabs)/explore.tsx
